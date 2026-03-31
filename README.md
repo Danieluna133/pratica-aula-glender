@@ -1,5 +1,66 @@
 # pratica-aula-glender
 
+- Calculadora
+   * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package calculadora.de.de.pkg0.a.pkg10;
+
+/**
+ *
+ * @author danal
+ */
+public class JavaApplication4 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       /*
+int n, x;
+
+        for( x = 0; x <= 10; x++) {
+            for( n = 0; n <= 10; n++) {
+                     System.out.println(x*n);
+        }
+                  System.out.println("--------------------------------"); 
+   
+    }
+
+
+
+
+
+- Tabuada
+  
+Scanner leitor = new Scanner(System.in);
+
+        System.out.print("Digite um número para ver sua tabuada: ");
+        
+        if (leitor.hasNextInt()) {
+            int n = leitor.nextInt();
+            
+            System.out.println("\n--- Tabuada do " + n + " ---");
+            
+            for (int i = 1; i <= 10; i++) {
+                int resultado = n * i;
+                System.out.printf("%d x %d = %d%n", n, i, resultado);
+            }
+            
+            System.out.println("-----------------------");
+        } else {
+            System.out.println("Erro: Por favor, insira apenas números inteiros.");
+        }
+
+        leitor.close();
+    }
+}
+
+
+
+
+
+
 - Faça um programa que calcule o fatorial de um numero informado pelo usuario:
 
 /*
